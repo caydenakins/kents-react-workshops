@@ -15,7 +15,7 @@ The benefit of working with React is that working with the DOM is imperative and
 React: responsible for creating react elements (kinda like `document.createElement()`)
 ReactDOM: responsible for render react elements to the DOM (kinda like `rootElement.append()`)
 
-There exists a special `typeOf` element
+There exists a special `typeof` operator that gets the data type of its operand, either a literal or a data structure, and returning the data type.
 
 The keys of strings need to be unique.
   - When it's a primitive value, React doesn't need a key because there's no state to be maintained with certain elements

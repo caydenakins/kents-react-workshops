@@ -56,6 +56,7 @@ Anytime you're updating state and referencing the previous state, you should pro
 We don't manipulate state in React, we update it.
 
 **Managed State**: State that you need to explicitly manage
+
 **Derived State**: State that you can calculate based on other state
 
 ## useRef and useEffect: DOM interaction
